@@ -1,0 +1,107 @@
+body {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+}
+
+.container.wrap {
+	background-color: rgba(105,105,105,0.1);
+}
+/*style for Header 1 Title*/
+.title {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	text-align:center;
+	font-size:50px;
+	color: #8D0F03;
+	/*letter-spacing: 0.05em;*/
+	margin: 60px auto 20px;
+}
+
+h2 {
+	font-family: 'Quicksand';
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #B61302;
+}
+
+/*style for correct answers*/
+.correct {
+	color:green;
+}
+
+/*style for incorrect answers*/
+.incorrect {
+	color:red;
+}
+
+.correct, .incorrect {
+	font-family: 'Quicksand';
+	font-size: 4em;
+	font-weight: bold;
+}
+
+input.no {
+	border: 2px solid red;
+	box-shadow: 0 0 5px red;
+}
+
+input.yes {
+	border: 2px solid green;
+	box-shadow: 0 0 5px green;
+}
+
+.col-sm-12 {
+	text-align: center;
+}
+
+.form-control {
+	height: 50px;
+	width: 30%;
+	left: 35%;
+	margin-top: -85px;
+	position: absolute;
+	border: solid 2px black;
+}
+
+.form-group {
+	text-align: center;
+}
+
+/*style for question divs*/
+.form-group > div {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*style for h1 elements*/
+h1.correct, h1.incorrect {
+	text-align: center;
+}
+
+/*style for images*/
+img {
+	border-radius: 10px;
+	width: 30vw;
+	height: auto;
+	margin-bottom: 60px;
+}
+
+a > button {
+	/*margin: 40px auto 100px;*/
+}
+
+#results {
+	margin-top: 40px;
+}
+
+#body {
+	background-size: 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}

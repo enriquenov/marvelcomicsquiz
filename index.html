@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Character Set -->
+	<meta charset="utf-8">
+	<!-- Media Queries -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,700" rel="stylesheet">
+
+	<!-- Title -->
+	<title>Debugging Simple Quiz Application</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body id="body">
+	<!-- Quiz Question Elements - Questions are added using JavaScript -->
+	<div class="container wrap">
+		<h1 class="title">NAME THE MARVEL CHARACTER !</h1>
+		<h2>(If you can...)</h2>
+
+		<div class="row">
+			<form class="col-sm-12">
+				<div class="form-group">
+					<div id="question0"></div>
+					<img src="img/thor.jpg" alt="thor">
+					<input id="answer0" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question1"></div>
+					<img src="img/rogue.jpg" alt="thor">
+					<input id="answer1" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question2"></div>
+					<img src="img/spiderman.jpg" alt="thor">
+					<input id="answer2" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question3"></div>
+					<img src="img/gambit.jpg" alt="thor">
+					<input id="answer3" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question4"></div>
+					<img src="img/wolverine.jpg" alt="thor">
+					<input id="answer4" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question5"></div>
+					<img src="img/storm.jpg" alt="thor">
+					<input id="answer5" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question6"></div>
+					<img src="img/deadpool.jpg" alt="thor">
+					<input id="answer6" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question7"></div>
+					<img src="img/magneto.jpg" alt="thor">
+					<input id="answer7" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question8"></div>
+					<img src="img/mystique.jpg" alt="thor">
+					<input id="answer8" type="text" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question9"></div>
+					<img src="img/juggernaut.jpg" alt="thor">
+					<input id="answer9" type="text" class="form-control">
+				</div>
+				<!-- Submit Button -->
+				<a href="#results">
+					<button type="button" onclick="testResults()" class="btn btn-primary btn-lg">See Results</button>
+				</a>
+			</form>
+
+			<!-- Display correct and incorrect totals -->
+			<div id="results" class="col-sm-12">
+				<h1 class="correct"><span id="correct"></span></h1>
+				<h1 class="incorrect"><span id="incorrect"></span></h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- Custom JavaScript -->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
